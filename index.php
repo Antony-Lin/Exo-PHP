@@ -2,11 +2,16 @@
 
 <body class="container_all">
 <?php
-
 require "bdd.php";
 ?>  
-    <div class="container_table">
+    <div class="container_select">
+        <select name="" id="">
+            <option value=""></option>
+            <option value=""></option>
+        </select>
         <a href="create.php"><button>Create</button></a>
+    </div>
+    <div class="container_table">
         <table>
             <thead>
                 <tr>

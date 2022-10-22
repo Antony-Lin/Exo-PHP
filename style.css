@@ -20,4 +20,12 @@
 
 .container_table{
     margin: 0 12em 0 12em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

@@ -1,0 +1,23 @@
+.container_all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    height: 100%;
+}
+
+.container_head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1%;
+}
+
+.container_table td{
+    padding:2em;
+    border-style: solid;
+}
+
+.container_table{
+    margin: 0 12em 0 12em;
+}
